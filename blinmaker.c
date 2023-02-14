@@ -60,7 +60,7 @@ int main(void)
     printf("%8dml  milk\n", smallest * milkMin);
     printf("%8dg   flour\n", smallest * flourMin);
 
-    printf("\nBlinmaker is shutting down...\n");
+    printf("\nBlinmaker is shutting down... and stay cheeki breeki!\n");
 
     return 0;
 }
