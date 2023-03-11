@@ -1,6 +1,7 @@
 /*
+** A 'C' port of the fantastic 'blinmaker' inspired by Boris (https://www.youtube.com/watch?v=FMIZEfjYmtM)
 **
-** Inspired by Boris (https://www.youtube.com/watch?v=FMIZEfjYmtM)
+** Goran Todorovic (2023-03-11)
 **
 */
 
