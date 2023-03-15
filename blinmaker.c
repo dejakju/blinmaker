@@ -1,7 +1,17 @@
 /*
 ** A 'C' port of the fantastic 'blinmaker' inspired by Boris (https://www.youtube.com/watch?v=FMIZEfjYmtM)
 **
-** Goran Todorovic (2023-03-11)
+**
+**  An actual recipie which works (for 6-8 pancakes, depending on the thickness):
+**
+**      150g  Flour
+**        3   Eggs
+**      125ml Milk
+**      125ml Mineral Water
+**            A pinch of salt
+**            Sugar at will
+**
+** Goran Todorovic (2023-03-15)
 **
 */
 
