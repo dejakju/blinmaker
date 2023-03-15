@@ -52,20 +52,20 @@ int main(void)
     printf("OK, so you have %d portions of eggs, %d portions of milk and %d portions of flour...\n", eggsAmount, milkAmount, flourAmount);
 
     int smallest = 0;
-    if (eggsAmount <= milkAmount && milkAmount <= flourAmount)
+    if (eggsAmount <= milkAmount)
     {
         smallest = eggsAmount;
     }
-    else if (milkAmount <= flourAmount && flourAmount <= eggsAmount)
+    else if (milkAmount <= flourAmount)
     {
         smallest = milkAmount;
     }
-    else
+    else if (flourAmount <= eggsAmount)
     {
         smallest = flourAmount;
     }
 
-    printf("So, in order to make %d blins you'll have to prepare:\n\n", smallest);
+    printf("So, in order to make %d blins you'll have to prepare:\n\n", (smallest * 4));
 
     printf("%8d    eggs\n", smallest * eggsMin);
     printf("%8dml  milk\n", smallest * milkMin);
